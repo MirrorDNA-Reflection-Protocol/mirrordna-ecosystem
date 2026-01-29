@@ -1,0 +1,51 @@
+# repo-name
+
+**Layer:** runtime
+**Status:** beta
+**Purpose:** Brief description of what this repo does.
+
+## Overview
+
+Longer description of the repository's purpose and how it fits into the MirrorDNA ecosystem.
+
+## Installation
+
+```bash
+# Installation commands
+npm install repo-name
+# or
+pip install repo-name
+```
+
+## Usage
+
+```python
+# Basic usage example
+from repo_name import main_function
+
+result = main_function()
+```
+
+## Configuration
+
+Describe any configuration options.
+
+## Dependencies
+
+This repo depends on:
+- [MirrorDNA](https://github.com/MirrorDNA-Reflection-Protocol/MirrorDNA) — Core protocol
+- [Other-Dep](link) — Description
+
+## See Also
+
+Related repos in the ecosystem:
+- [Related-Repo-1](link) — Description
+- [Related-Repo-2](link) — Description
+
+## License
+
+MIT — see [LICENSE](LICENSE)
+
+---
+
+Part of the [MirrorDNA Ecosystem](https://github.com/MirrorDNA-Reflection-Protocol/mirrordna-ecosystem)

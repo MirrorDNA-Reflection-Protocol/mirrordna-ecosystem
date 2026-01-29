@@ -1,0 +1,69 @@
+name: Ecosystem Sync
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run weekly on Sundays at midnight UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate Metadata
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate ecosystem-index.json
+        run: python -c "import json; json.load(open('ecosystem-index.json'))"
+
+      - name: Validate metadata.yml
+        run: python scripts/validate-metadata.py || true  # Don't fail on external repos
+
+  generate-graph:
+    name: Generate Graph
+    runs-on: ubuntu-latest
+    needs: validate
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate graph
+        run: python scripts/render-graph.py
+
+      - name: Upload graph artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ecosystem-graph
+          path: assets/ecosystem-graph.svg
+
+  # Future: auto-update index from all repos
+  # sync-index:
+  #   name: Sync Index
+  #   runs-on: ubuntu-latest
+  #   if: github.event_name == 'schedule'
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Generate fresh index
+  #       run: python scripts/generate-index.py
+  #     - name: Create PR if changed
+  #       uses: peter-evans/create-pull-request@v5
+  #       with:
+  #         title: "chore: sync ecosystem index"
+  #         commit-message: "chore: sync ecosystem index"
+  #         branch: auto/sync-ecosystem

@@ -1,0 +1,50 @@
+graph TB
+    subgraph PROTOCOL
+        LingOS[LingOS]
+        MirrorDNA[MirrorDNA]
+        MirrorDNA_Standard[MirrorDNA-Standard]
+        SCD_Protocol[SCD-Protocol]
+        active_mirror_identity[active-mirror-identity]
+        active_mirror_identity_synthesis[active-mirror-identity-synthesis]
+        glyph_engine[glyph-engine]
+        lingos_kernel[lingos-kernel]
+    end
+    subgraph LANGUAGE
+        beacon_glyph_sdk[beacon-glyph-sdk]
+    end
+    subgraph RUNTIME
+        MirrorBrain_Mobile[MirrorBrain-Mobile]
+        MirrorOS_Swarm[MirrorOS_Swarm]
+        MirrorShell[MirrorShell]
+        active_mirror_mesh[active-mirror-mesh]
+        chrysalis_bridge[chrysalis-bridge]
+        mesh_boot_generator[mesh-boot-generator]
+        mirror_registry[mirror-registry]
+        mirror_swarm_demo[mirror-swarm-demo]
+    end
+    subgraph APPLICATION
+        ActiveMirrorOS[ActiveMirrorOS]
+        Apps[Apps]
+        active_mirror_2050_core[active-mirror-2050-core]
+        activemirror_site[activemirror-site]
+        mirrorcowork[mirrorcowork]
+    end
+    subgraph INFRASTRUCTURE
+        mirror_authority[mirror-authority]
+        mirror_genesis[mirror-genesis]
+        mirrordna_ecosystem[mirrordna-ecosystem]
+        sc1_deployment[sc1-deployment]
+        sovereign_canaryd[sovereign-canaryd]
+    end
+    subgraph RESEARCH
+        Reflective_Ai[Reflective-Ai]
+        awesome[awesome]
+        oversight_prototype[oversight-prototype]
+        reflex[reflex]
+        research_papers[research-papers]
+    end
+    MirrorBrain --> MirrorDNA
+    mirrorgate --> MirrorDNA
+    mirrordna_mcp --> MirrorDNA
+    activemirror_site --> MirrorBrain
+    MirrorBrain_Mobile --> mirrordna_mcp

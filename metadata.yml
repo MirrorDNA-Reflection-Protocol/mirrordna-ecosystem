@@ -1,0 +1,29 @@
+name: mirrordna-ecosystem
+layer: infrastructure
+status: stable
+short_description: Canonical index and specification for the MirrorDNA 87-repo ecosystem
+long_description:
+  - Central discovery point for all MirrorDNA repositories
+  - Machine-readable ecosystem index (JSON)
+  - Metadata specification and templates
+  - Automated validation and graph generation
+  - Entry point for developers and researchers
+dependencies: []
+reverse_dependencies:
+  - All ecosystem repos reference this for metadata standards
+core_concepts:
+  - ecosystem
+  - discovery
+  - metadata
+  - specification
+license: MIT
+authors:
+  - Paul Desai
+tags:
+  - ecosystem
+  - index
+  - specification
+  - metadata
+  - mirrordna
+  - sovereign-ai
+spec_version: "2026-01"

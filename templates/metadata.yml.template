@@ -1,0 +1,26 @@
+# MirrorDNA Ecosystem Metadata Template
+# Copy this to your repo root as metadata.yml
+
+name: your-repo-name                    # unique repo name (lowercase-kebab)
+layer: runtime                          # protocol | language | runtime | application | infrastructure | research
+status: beta                            # alpha | beta | stable | archived | deprecated
+short_description: >                    # 1-2 sentences, max 150 chars
+  Brief description of what this repo does.
+long_description:                       # 3-5 bullet points
+  - First key capability or feature
+  - Second key capability
+  - Third key capability
+dependencies:                           # list of MirrorDNA repos this depends on
+  - MirrorDNA
+  - mirrordna-mcp
+reverse_dependencies: []                # repos that depend on this (auto-populated)
+core_concepts:                          # keywords for search
+  - sovereign-ai
+  - memory
+license: MIT                            # MIT or specify other
+authors:
+  - Your Name
+tags:                                   # searchable tags
+  - tag1
+  - tag2
+spec_version: "2026-01"                 # ecosystem spec version

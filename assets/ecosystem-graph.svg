@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<style>
+  .layer-label { font: bold 14px sans-serif; fill: #374151; }
+  .repo-label { font: 11px sans-serif; fill: #1F2937; }
+  .repo-box { rx: 6; ry: 6; stroke: #E5E7EB; stroke-width: 1; }
+  .legend-text { font: 12px sans-serif; fill: #374151; }
+</style>
+<rect width="100%" height="100%" fill="#F9FAFB"/>
+
+<!-- Title -->
+<text x="600" y="40" text-anchor="middle" style="font: bold 24px sans-serif; fill: #111827;">MirrorDNA Ecosystem</text>
+<text x="600" y="65" text-anchor="middle" style="font: 14px sans-serif; fill: #6B7280;">87 repositories | 6 layers | Sovereign AI Infrastructure</text>
+
+<!-- PROTOCOL -->
+<rect x="20" y="100" width="160" height="580" fill="#3B82F615" rx="12"/>
+<text x="100" y="125" text-anchor="middle" class="layer-label">PROTOCOL</text>
+<text x="100" y="145" text-anchor="middle" style="font: 11px sans-serif; fill: #6B7280;">16 repos</text>
+<rect x="30" y="160" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="160" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="185" class="repo-label">LingOS</text>
+<rect x="30" y="210" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="210" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="235" class="repo-label">MirrorDNA</text>
+<rect x="30" y="260" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="260" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="285" class="repo-label">MirrorDNA-Standard</text>
+<rect x="30" y="310" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="310" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="335" class="repo-label">SCD-Protocol</text>
+<rect x="30" y="360" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="360" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="385" class="repo-label">active-mirror-ide...</text>
+<rect x="30" y="410" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="410" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="435" class="repo-label">active-mirror-ide...</text>
+<rect x="30" y="460" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="460" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="485" class="repo-label">glyph-engine</text>
+<rect x="30" y="510" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="510" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="535" class="repo-label">lingos-kernel</text>
+<rect x="30" y="560" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="560" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="585" class="repo-label">mirrordna-automat...</text>
+<rect x="30" y="610" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="30" y="610" width="4" height="40" fill="#3B82F6" rx="2"/>
+<text x="42" y="635" class="repo-label">mirrordna-daemons</text>
+<text x="100" y="660" text-anchor="middle" style="font: 11px sans-serif; fill: #9CA3AF;">+6 more</text>
+<!-- LANGUAGE -->
+<rect x="220" y="100" width="160" height="580" fill="#22C55E15" rx="12"/>
+<text x="300" y="125" text-anchor="middle" class="layer-label">LANGUAGE</text>
+<text x="300" y="145" text-anchor="middle" style="font: 11px sans-serif; fill: #6B7280;">1 repos</text>
+<rect x="230" y="160" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="230" y="160" width="4" height="40" fill="#22C55E" rx="2"/>
+<text x="242" y="185" class="repo-label">beacon-glyph-sdk</text>
+<!-- RUNTIME -->
+<rect x="420" y="100" width="160" height="580" fill="#A855F715" rx="12"/>
+<text x="500" y="125" text-anchor="middle" class="layer-label">RUNTIME</text>
+<text x="500" y="145" text-anchor="middle" style="font: 11px sans-serif; fill: #6B7280;">11 repos</text>
+<rect x="430" y="160" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="160" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="185" class="repo-label">MirrorBrain-Mobile</text>
+<rect x="430" y="210" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="210" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="235" class="repo-label">MirrorOS_Swarm</text>
+<rect x="430" y="260" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="260" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="285" class="repo-label">MirrorShell</text>
+<rect x="430" y="310" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="310" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="335" class="repo-label">active-mirror-mesh</text>
+<rect x="430" y="360" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="360" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="385" class="repo-label">chrysalis-bridge</text>
+<rect x="430" y="410" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="410" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="435" class="repo-label">mesh-boot-generator</text>
+<rect x="430" y="460" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="460" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="485" class="repo-label">mirror-registry</text>
+<rect x="430" y="510" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="510" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="535" class="repo-label">mirror-swarm-demo</text>
+<rect x="430" y="560" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="560" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="585" class="repo-label">mirrorgate</text>
+<rect x="430" y="610" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="430" y="610" width="4" height="40" fill="#A855F7" rx="2"/>
+<text x="442" y="635" class="repo-label">mirrorswarm</text>
+<text x="500" y="660" text-anchor="middle" style="font: 11px sans-serif; fill: #9CA3AF;">+1 more</text>
+<!-- APPLICATION -->
+<rect x="620" y="100" width="160" height="580" fill="#F9731615" rx="12"/>
+<text x="700" y="125" text-anchor="middle" class="layer-label">APPLICATION</text>
+<text x="700" y="145" text-anchor="middle" style="font: 11px sans-serif; fill: #6B7280;">5 repos</text>
+<rect x="630" y="160" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="630" y="160" width="4" height="40" fill="#F97316" rx="2"/>
+<text x="642" y="185" class="repo-label">ActiveMirrorOS</text>
+<rect x="630" y="210" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="630" y="210" width="4" height="40" fill="#F97316" rx="2"/>
+<text x="642" y="235" class="repo-label">Apps</text>
+<rect x="630" y="260" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="630" y="260" width="4" height="40" fill="#F97316" rx="2"/>
+<text x="642" y="285" class="repo-label">active-mirror-205...</text>
+<rect x="630" y="310" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="630" y="310" width="4" height="40" fill="#F97316" rx="2"/>
+<text x="642" y="335" class="repo-label">activemirror-site</text>
+<rect x="630" y="360" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="630" y="360" width="4" height="40" fill="#F97316" rx="2"/>
+<text x="642" y="385" class="repo-label">mirrorcowork</text>
+<!-- INFRASTRUCTURE -->
+<rect x="820" y="100" width="160" height="580" fill="#14B8A615" rx="12"/>
+<text x="900" y="125" text-anchor="middle" class="layer-label">INFRASTRUCTURE</text>
+<text x="900" y="145" text-anchor="middle" style="font: 11px sans-serif; fill: #6B7280;">5 repos</text>
+<rect x="830" y="160" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="830" y="160" width="4" height="40" fill="#14B8A6" rx="2"/>
+<text x="842" y="185" class="repo-label">mirror-authority</text>
+<rect x="830" y="210" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="830" y="210" width="4" height="40" fill="#14B8A6" rx="2"/>
+<text x="842" y="235" class="repo-label">mirror-genesis</text>
+<rect x="830" y="260" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="830" y="260" width="4" height="40" fill="#14B8A6" rx="2"/>
+<text x="842" y="285" class="repo-label">mirrordna-ecosystem</text>
+<rect x="830" y="310" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="830" y="310" width="4" height="40" fill="#14B8A6" rx="2"/>
+<text x="842" y="335" class="repo-label">sc1-deployment</text>
+<rect x="830" y="360" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="830" y="360" width="4" height="40" fill="#14B8A6" rx="2"/>
+<text x="842" y="385" class="repo-label">sovereign-canaryd</text>
+<!-- RESEARCH -->
+<rect x="1020" y="100" width="160" height="580" fill="#EAB30815" rx="12"/>
+<text x="1100" y="125" text-anchor="middle" class="layer-label">RESEARCH</text>
+<text x="1100" y="145" text-anchor="middle" style="font: 11px sans-serif; fill: #6B7280;">5 repos</text>
+<rect x="1030" y="160" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="1030" y="160" width="4" height="40" fill="#EAB308" rx="2"/>
+<text x="1042" y="185" class="repo-label">Reflective-Ai</text>
+<rect x="1030" y="210" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="1030" y="210" width="4" height="40" fill="#EAB308" rx="2"/>
+<text x="1042" y="235" class="repo-label">awesome</text>
+<rect x="1030" y="260" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="1030" y="260" width="4" height="40" fill="#EAB308" rx="2"/>
+<text x="1042" y="285" class="repo-label">oversight-prototype</text>
+<rect x="1030" y="310" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="1030" y="310" width="4" height="40" fill="#EAB308" rx="2"/>
+<text x="1042" y="335" class="repo-label">reflex</text>
+<rect x="1030" y="360" width="140" height="40" fill="white" class="repo-box"/>
+<rect x="1030" y="360" width="4" height="40" fill="#EAB308" rx="2"/>
+<text x="1042" y="385" class="repo-label">research-papers</text>
+
+<!-- Legend -->
+<text x="60" y="720" class="legend-text" style="font-weight: bold;">Layers:</text>
+<rect x="140" y="708" width="16" height="16" fill="#3B82F6" rx="3"/>
+<text x="162" y="720" class="legend-text">protocol</text>
+<rect x="300" y="708" width="16" height="16" fill="#22C55E" rx="3"/>
+<text x="322" y="720" class="legend-text">language</text>
+<rect x="460" y="708" width="16" height="16" fill="#A855F7" rx="3"/>
+<text x="482" y="720" class="legend-text">runtime</text>
+<rect x="620" y="708" width="16" height="16" fill="#F97316" rx="3"/>
+<text x="642" y="720" class="legend-text">application</text>
+<rect x="780" y="708" width="16" height="16" fill="#14B8A6" rx="3"/>
+<text x="802" y="720" class="legend-text">infrastructure</text>
+<rect x="940" y="708" width="16" height="16" fill="#EAB308" rx="3"/>
+<text x="962" y="720" class="legend-text">research</text>
+<text x="600" y="780" text-anchor="middle" style="font: 11px sans-serif; fill: #9CA3AF;">Generated from ecosystem-index.json | github.com/MirrorDNA-Reflection-Protocol/mirrordna-ecosystem</text>
+</svg>

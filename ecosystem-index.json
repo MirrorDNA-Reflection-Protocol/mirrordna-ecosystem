@@ -1,0 +1,863 @@
+{
+  "version": "2026-01",
+  "generated": "2026-01-29T08:26:43.088422+00:00",
+  "total_repos": 87,
+  "local_repos": 56,
+  "public_repos": 60,
+  "private_repos": 27,
+  "repos": [
+    {
+      "name": "ActiveMirrorOS",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/ActiveMirrorOS",
+      "local_path": "/Users/mirror-admin/repos/ActiveMirrorOS",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "application",
+      "status": "beta",
+      "short_description": "\u27e1 ActiveMirrorOS",
+      "dependencies": [],
+      "tags": [
+        "application",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "Apps",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/Apps",
+      "local_path": "/Users/mirror-admin/repos/Apps",
+      "has_metadata": false,
+      "has_readme": false,
+      "is_ecosystem": true,
+      "layer": "application",
+      "status": "beta",
+      "short_description": "Apps - MirrorDNA ecosystem component",
+      "dependencies": [],
+      "tags": [
+        "application",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "LingOS",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/LingOS",
+      "local_path": "/Users/mirror-admin/repos/LingOS",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "LingOS\u2122 - Language-Native Operating System",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "MirrorBrain-Mobile",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/MirrorBrain-Mobile",
+      "local_path": "/Users/mirror-admin/repos/MirrorBrain-Mobile",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "\u27e1 MirrorBrain Mobile",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "MirrorDNA",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/MirrorDNA",
+      "local_path": "/Users/mirror-admin/repos/MirrorDNA",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "stable",
+      "short_description": "\u27e1 MirrorDNA Protocol",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "MirrorDNA-Standard",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/MirrorDNA-Standard",
+      "local_path": "/Users/mirror-admin/repos/MirrorDNA-Standard",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "MirrorDNA-Standard",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "MirrorOS_Swarm",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/MirrorOS_Swarm",
+      "local_path": "/Users/mirror-admin/repos/MirrorOS_Swarm",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "MirrorOS Swarm",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "MirrorShell",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/MirrorShell",
+      "local_path": "/Users/mirror-admin/repos/MirrorShell",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "MirrorShell (Node A)",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "Reflective-Ai",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/Reflective-Ai",
+      "local_path": "/Users/mirror-admin/repos/Reflective-Ai",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "research",
+      "status": "beta",
+      "short_description": "Reflective AI\u2122",
+      "dependencies": [],
+      "tags": [
+        "research",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "SCD-Protocol",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/SCD-Protocol",
+      "local_path": "/Users/mirror-admin/repos/SCD-Protocol",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "stable",
+      "short_description": "SCD Protocol - Deterministic State Management for AI",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "active-mirror-2050-core",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/active-mirror-2050-core",
+      "local_path": "/Users/mirror-admin/repos/active-mirror-2050-core",
+      "has_metadata": false,
+      "has_readme": false,
+      "is_ecosystem": true,
+      "layer": "application",
+      "status": "beta",
+      "short_description": "active-mirror-2050-core - MirrorDNA ecosystem component",
+      "dependencies": [],
+      "tags": [
+        "application",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "active-mirror-identity",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/active-mirror-identity",
+      "local_path": "/Users/mirror-admin/repos/active-mirror-identity",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "\u27e1 Active Mirror Identity (AMI) v1.0",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "active-mirror-identity-synthesis",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/active-mirror-identity-synthesis",
+      "local_path": "/Users/mirror-admin/repos/active-mirror-identity-synthesis",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "active-mirror-mesh",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/active-mirror-mesh",
+      "local_path": "/Users/mirror-admin/repos/active-mirror-mesh",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "\u27e1 Active Mirror Mesh",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "activemirror-site",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/activemirror-site",
+      "local_path": "/Users/mirror-admin/repos/activemirror-site",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "application",
+      "status": "beta",
+      "short_description": "\u27e1 Active Mirror",
+      "dependencies": [],
+      "tags": [
+        "application",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "awesome",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/awesome",
+      "local_path": "/Users/mirror-admin/repos/awesome",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "research",
+      "status": "beta",
+      "short_description": "<div align=\"center\">",
+      "dependencies": [],
+      "tags": [
+        "research",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "beacon-glyph-sdk",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/beacon-glyph-sdk",
+      "local_path": "/Users/mirror-admin/repos/beacon-glyph-sdk",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "language",
+      "status": "beta",
+      "short_description": "\u27e1 Beacon Glyph SDK",
+      "dependencies": [],
+      "tags": [
+        "language",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "chrysalis-bridge",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/chrysalis-bridge",
+      "local_path": "/Users/mirror-admin/repos/chrysalis-bridge",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "Chrysalis Bridge",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "glyph-engine",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/glyph-engine",
+      "local_path": "/Users/mirror-admin/repos/glyph-engine",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "<div align=\"center\">",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "lingos-kernel",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/lingos-kernel",
+      "local_path": "/Users/mirror-admin/repos/lingos-kernel",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "LingOS Kernel",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mesh-boot-generator",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mesh-boot-generator",
+      "local_path": "/Users/mirror-admin/repos/mesh-boot-generator",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "MESH BOOT Generator",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirror-authority",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirror-authority",
+      "local_path": "/Users/mirror-admin/repos/mirror-authority",
+      "has_metadata": false,
+      "has_readme": false,
+      "is_ecosystem": true,
+      "layer": "infrastructure",
+      "status": "beta",
+      "short_description": "mirror-authority - MirrorDNA ecosystem component",
+      "dependencies": [],
+      "tags": [
+        "infrastructure",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirror-genesis",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirror-genesis",
+      "local_path": "/Users/mirror-admin/repos/mirror-genesis",
+      "has_metadata": false,
+      "has_readme": false,
+      "is_ecosystem": true,
+      "layer": "infrastructure",
+      "status": "beta",
+      "short_description": "mirror-genesis - MirrorDNA ecosystem component",
+      "dependencies": [],
+      "tags": [
+        "infrastructure",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirror-registry",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirror-registry",
+      "local_path": "/Users/mirror-admin/repos/mirror-registry",
+      "has_metadata": false,
+      "has_readme": false,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "mirror-registry - MirrorDNA ecosystem component",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirror-swarm-demo",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirror-swarm-demo",
+      "local_path": "/Users/mirror-admin/repos/mirror-swarm-demo",
+      "has_metadata": false,
+      "has_readme": false,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "alpha",
+      "short_description": "mirror-swarm-demo - MirrorDNA ecosystem component",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrorcowork",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrorcowork",
+      "local_path": "/Users/mirror-admin/repos/mirrorcowork",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "application",
+      "status": "beta",
+      "short_description": "mirrorcowork - MirrorDNA ecosystem component",
+      "dependencies": [],
+      "tags": [
+        "application",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrordna-automation",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrordna-automation",
+      "local_path": "/Users/mirror-admin/repos/mirrordna-automation",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "\u27e1 MirrorDNA Automation",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrordna-daemons",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrordna-daemons",
+      "local_path": "/Users/mirror-admin/repos/mirrordna-daemons",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "\u27e1 MirrorDNA Daemons",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrordna-ecosystem",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrordna-ecosystem",
+      "local_path": "/Users/mirror-admin/repos/mirrordna-ecosystem",
+      "has_metadata": true,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "infrastructure",
+      "status": "stable",
+      "short_description": "Canonical index and specification for the MirrorDNA 87-repo ecosystem",
+      "dependencies": [],
+      "tags": [
+        "ecosystem",
+        "index",
+        "specification",
+        "metadata",
+        "mirrordna",
+        "sovereign-ai"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrordna-examples",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrordna-examples",
+      "local_path": "/Users/mirror-admin/repos/mirrordna-examples",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "\u27e1 MirrorDNA Examples",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrordna-llm-optimizer",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrordna-llm-optimizer",
+      "local_path": "/Users/mirror-admin/repos/mirrordna-llm-optimizer",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "MirrorDNA LLM Optimizer",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrordna-mcp",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrordna-mcp",
+      "local_path": "/Users/mirror-admin/repos/mirrordna-mcp",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "stable",
+      "short_description": "\u27e1 MirrorDNA MCP Server",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrordna-skills",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrordna-skills",
+      "local_path": "/Users/mirror-admin/repos/mirrordna-skills",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "mirrordna-skills",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrorgate",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrorgate",
+      "local_path": "/Users/mirror-admin/repos/mirrorgate",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "\u27e1 MirrorGate",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "mirrorswarm",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/mirrorswarm",
+      "local_path": "/Users/mirror-admin/repos/mirrorswarm",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "beta",
+      "short_description": "MirrorSwarm \u2014 Sovereign Agent Command Center",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "oversight-prototype",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/oversight-prototype",
+      "local_path": "/Users/mirror-admin/repos/oversight-prototype",
+      "has_metadata": false,
+      "has_readme": false,
+      "is_ecosystem": true,
+      "layer": "research",
+      "status": "alpha",
+      "short_description": "oversight-prototype - MirrorDNA ecosystem component",
+      "dependencies": [],
+      "tags": [
+        "research",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "reflex",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/reflex",
+      "local_path": "/Users/mirror-admin/repos/reflex",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "research",
+      "status": "beta",
+      "short_description": "Reflex",
+      "dependencies": [],
+      "tags": [
+        "research",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "research-papers",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/research-papers",
+      "local_path": "/Users/mirror-admin/repos/research-papers",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "research",
+      "status": "beta",
+      "short_description": "Research Papers - Active MirrorOS / MirrorDNA",
+      "dependencies": [],
+      "tags": [
+        "research",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "sc1-deployment",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/sc1-deployment",
+      "local_path": "/Users/mirror-admin/repos/sc1-deployment",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "infrastructure",
+      "status": "active",
+      "short_description": "Sovereign Cloud of One (SC1) Deployment",
+      "dependencies": [],
+      "tags": [
+        "infrastructure",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "sovereign-canaryd",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/sovereign-canaryd",
+      "local_path": "/Users/mirror-admin/repos/sovereign-canaryd",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "infrastructure",
+      "status": "beta",
+      "short_description": "Sovereign Canaryd",
+      "dependencies": [],
+      "tags": [
+        "infrastructure",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "sovereign-memory",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/sovereign-memory",
+      "local_path": "/Users/mirror-admin/repos/sovereign-memory",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "\u27e1 Sovereign Memory",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "udtp",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/udtp",
+      "local_path": "/Users/mirror-admin/repos/udtp",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "protocol",
+      "status": "beta",
+      "short_description": "UDTP - Universal Device Transport Protocol",
+      "dependencies": [],
+      "tags": [
+        "protocol",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    },
+    {
+      "name": "world-state-daemon",
+      "url": "https://github.com/MirrorDNA-Reflection-Protocol/world-state-daemon",
+      "local_path": "/Users/mirror-admin/repos/world-state-daemon",
+      "has_metadata": false,
+      "has_readme": true,
+      "is_ecosystem": true,
+      "layer": "runtime",
+      "status": "proof",
+      "short_description": "World State Daemon",
+      "dependencies": [],
+      "tags": [
+        "runtime",
+        "mirrordna"
+      ],
+      "visibility": "public",
+      "reverse_dependencies": []
+    }
+  ],
+  "layers": {
+    "protocol": {
+      "count": 16,
+      "repos": [
+        "LingOS",
+        "MirrorDNA",
+        "MirrorDNA-Standard",
+        "SCD-Protocol",
+        "active-mirror-identity",
+        "active-mirror-identity-synthesis",
+        "glyph-engine",
+        "lingos-kernel",
+        "mirrordna-automation",
+        "mirrordna-daemons",
+        "mirrordna-examples",
+        "mirrordna-llm-optimizer",
+        "mirrordna-mcp",
+        "mirrordna-skills",
+        "sovereign-memory",
+        "udtp"
+      ]
+    },
+    "language": {
+      "count": 1,
+      "repos": [
+        "beacon-glyph-sdk"
+      ]
+    },
+    "runtime": {
+      "count": 11,
+      "repos": [
+        "MirrorBrain-Mobile",
+        "MirrorOS_Swarm",
+        "MirrorShell",
+        "active-mirror-mesh",
+        "chrysalis-bridge",
+        "mesh-boot-generator",
+        "mirror-registry",
+        "mirror-swarm-demo",
+        "mirrorgate",
+        "mirrorswarm",
+        "world-state-daemon"
+      ]
+    },
+    "application": {
+      "count": 5,
+      "repos": [
+        "ActiveMirrorOS",
+        "Apps",
+        "active-mirror-2050-core",
+        "activemirror-site",
+        "mirrorcowork"
+      ]
+    },
+    "infrastructure": {
+      "count": 5,
+      "repos": [
+        "mirror-authority",
+        "mirror-genesis",
+        "mirrordna-ecosystem",
+        "sc1-deployment",
+        "sovereign-canaryd"
+      ]
+    },
+    "research": {
+      "count": 5,
+      "repos": [
+        "Reflective-Ai",
+        "awesome",
+        "oversight-prototype",
+        "reflex",
+        "research-papers"
+      ]
+    }
+  }
+}
