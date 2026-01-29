@@ -198,6 +198,10 @@ class LinkChecker:
         except Exception:
             return []
 
+        # Remove code blocks before extracting links (examples shouldn't be validated)
+        content = re.sub(r'```[\s\S]*?```', '', content)  # Fenced code blocks
+        content = re.sub(r'`[^`]+`', '', content)  # Inline code
+
         links = []
 
         # HTML href
@@ -220,6 +224,10 @@ class LinkChecker:
 
             # Skip React Router paths (start with /)
             if link.startswith('/'):
+                continue
+
+            # Skip obvious non-links (ellipsis, shell commands, whitespace)
+            if link in ['...', '..'] or '|' in link or link.startswith(' ') or len(link) < 2:
                 continue
 
             # Skip anchor links within files (file.md#anchor)
@@ -279,8 +287,10 @@ def run_full_audit(inventory: dict, repos_path: Path) -> dict:
                 filepath = repo_path / f
                 results["stale_stats"].extend(stats.check_file(filepath))
 
-            # Links
+            # Links (exclude node_modules, .git, vendor directories)
             for f in repo_path.glob("**/*.md"):
+                if any(skip in str(f) for skip in ['node_modules', '.git', 'vendor', '__pycache__', '.venv', 'venv']):
+                    continue
                 file_links = links.extract_links(f)
                 results["broken_links"].extend(
                     links.check_internal_links(file_links, f.parent)
