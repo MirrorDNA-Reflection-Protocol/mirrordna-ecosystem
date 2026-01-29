@@ -139,7 +139,7 @@ class StatsAuditor:
 
         # Patterns that indicate stats that need updating
         stat_patterns = [
-            (r"(\d+)\s*repos?", "repo_count", 87),  # Should be 87
+            (r"(\d+)\s*repos?", "repo_count", 88),  # Should be 88
             (r"(\d+)\s*seeds?\s*created", "seed_count", None),  # Dynamic
             (r"(\d+)\s*users?", "user_count", None),  # Dynamic
             (r"(\d+)\s*downloads?", "download_count", None),  # Dynamic

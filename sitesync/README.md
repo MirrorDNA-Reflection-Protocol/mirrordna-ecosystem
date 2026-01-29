@@ -4,7 +4,7 @@
 
 ## What This Does
 
-**Problem:** With 87 repos and 7+ live properties, branding drift, stale stats, and broken links are inevitable.
+**Problem:** With 88 repos and 7+ live properties, branding drift, stale stats, and broken links are inevitable.
 
 **Solution:** SiteSync provides:
 1. **inventory.json** — Single source of truth for all domains, repos, and pages

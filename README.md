@@ -3,7 +3,7 @@
 > The operating system for your AI to remember who you are — on your terms.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Repos](https://img.shields.io/badge/repos-87-brightgreen.svg)](ecosystem-index.json)
+[![Repos](https://img.shields.io/badge/repos-88-brightgreen.svg)](ecosystem-index.json)
 [![Spec](https://img.shields.io/badge/spec-2026--01-purple.svg)](SPEC.md)
 
 ![Ecosystem Graph](assets/ecosystem-graph.svg)
@@ -16,7 +16,7 @@ Every AI company wants to own your context. They call it "memory" but it's surve
 
 MirrorDNA is sovereign AI infrastructure. Your memory. Your hardware. Your rules.
 
-**87 repositories. 7 live products. 15+ services. Built by one person in 8 months.**
+**88 repositories. 7 live products. 15+ services. Built by one person in 10 months.**
 
 ## Start Here
 
@@ -52,7 +52,7 @@ MirrorDNA is sovereign AI infrastructure. Your memory. Your hardware. Your rules
 
 This started with one question: *"What if AI could remember me — on my terms?"*
 
-Nine months. Under $10,000. One person in Goa with AI twins.
+Ten months. Under $10,000. One person in Goa with AI twins.
 
 **[Read the full story →](STORY.md)**
 
@@ -65,7 +65,7 @@ Nine months. Under $10,000. One person in Goa with AI twins.
 
 ## Explore the Ecosystem
 
-- **[ecosystem-index.json](ecosystem-index.json)** — Machine-readable index of all 87 repos
+- **[ecosystem-index.json](ecosystem-index.json)** — Machine-readable index of all 88 repos
 - **[SPEC.md](SPEC.md)** — Full technical specification
 - **[templates/](templates/)** — Metadata templates for ecosystem compliance
 
@@ -87,7 +87,7 @@ Nine months. Under $10,000. One person in Goa with AI twins.
 | Memory decay | Built-in | No | No |
 | Consent model | Explicit | Implicit | Implicit |
 | Governance layer | Structural | None | None |
-| Open source | 60 public repos | Partial | Partial |
+| Open source | 61 public repos | Partial | Partial |
 
 ## Contributing
 
