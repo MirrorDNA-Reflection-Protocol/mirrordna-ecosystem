@@ -1,0 +1,148 @@
+{
+  "version": "2026-01-29",
+  "organization": "N1 Intelligence (OPC) Pvt Ltd",
+  "brand": "Active Mirror / MirrorDNA",
+
+  "domains": {
+    "primary": [
+      {
+        "domain": "activemirror.ai",
+        "purpose": "Main site + sovereign inference demo",
+        "repo": "activemirror-site",
+        "status": "live",
+        "ssl": true,
+        "dns": "cloudflare"
+      },
+      {
+        "domain": "id.activemirror.ai",
+        "purpose": "Mirror Seed - portable AI identity",
+        "repo": "active-mirror-identity",
+        "status": "live",
+        "ssl": true,
+        "dns": "cloudflare"
+      },
+      {
+        "domain": "brief.activemirror.ai",
+        "purpose": "Truth Engine - Decisions, Forecasts, War Room",
+        "repo": "mirror-intelligence-portal",
+        "status": "live",
+        "ssl": true,
+        "dns": "cloudflare"
+      }
+    ],
+    "github_pages": [
+      {
+        "domain": "mirrordna-reflection-protocol.github.io/MirrorDNA-Docs",
+        "purpose": "Ecosystem documentation",
+        "repo": "MirrorDNA-Docs",
+        "status": "live"
+      },
+      {
+        "domain": "mirrordna-reflection-protocol.github.io/mirrordna-ecosystem",
+        "purpose": "Ecosystem index",
+        "repo": "mirrordna-ecosystem",
+        "status": "live"
+      }
+    ],
+    "reserved": [
+      "proxy.activemirror.ai",
+      "api.activemirror.ai",
+      "docs.activemirror.ai"
+    ]
+  },
+
+  "pages": {
+    "activemirror.ai": [
+      {"path": "/", "title": "Active Mirror - Sovereign AI", "type": "landing"},
+      {"path": "/mirror", "title": "Mirror Demo", "type": "app"},
+      {"path": "/demo", "title": "Demo", "type": "app"},
+      {"path": "/lab", "title": "Test Lab - WebGPU", "type": "app"},
+      {"path": "/pricing", "title": "Pricing", "type": "info"},
+      {"path": "/research", "title": "Research Papers", "type": "info"},
+      {"path": "/trust", "title": "Trust Center", "type": "info"},
+      {"path": "/legal", "title": "Legal", "type": "info"},
+      {"path": "/terms", "title": "Terms of Service", "type": "info"},
+      {"path": "/privacy", "title": "Privacy Policy", "type": "info"},
+      {"path": "/hub", "title": "Hub", "type": "app"},
+      {"path": "/confessions", "title": "Confessions", "type": "app"},
+      {"path": "/prism", "title": "Mirror Prism", "type": "app"}
+    ],
+    "id.activemirror.ai": [
+      {"path": "/", "title": "Mirror Seed Protocol", "type": "app"},
+      {"path": "/mindprint.html", "title": "MindPrint", "type": "app"},
+      {"path": "/embed.html", "title": "Brain Embed", "type": "app"},
+      {"path": "/famous.html", "title": "Famous Brains", "type": "app"},
+      {"path": "/compare.html", "title": "Brain Compare", "type": "app"}
+    ],
+    "brief.activemirror.ai": [
+      {"path": "/", "title": "Truth Engine", "type": "app"},
+      {"path": "/war-room", "title": "War Room", "type": "app"},
+      {"path": "/decisions", "title": "Decisions", "type": "app"},
+      {"path": "/forecasts", "title": "Forecasts", "type": "app"}
+    ]
+  },
+
+  "repos": {
+    "core": [
+      "MirrorDNA",
+      "SCD-Protocol",
+      "MirrorDNA-Standard",
+      "glyph-engine",
+      "MirrorGate",
+      "MirrorBrain"
+    ],
+    "products": [
+      "activemirror-site",
+      "active-mirror-identity",
+      "ActiveMirrorOS",
+      "MirrorBrain-Mobile",
+      "mirrorcowork",
+      "mirror-intelligence-portal"
+    ],
+    "infrastructure": [
+      "mirrordna-mcp",
+      "mirrordna-daemons",
+      "mirrordna-automation",
+      "mirror-registry",
+      "chrysalis-bridge",
+      "sovereign-canaryd"
+    ],
+    "documentation": [
+      "MirrorDNA-Docs",
+      "mirrordna-ecosystem",
+      "mirrordna-examples",
+      "research-papers",
+      "ActiveMirrorOS-WhitePaper"
+    ]
+  },
+
+  "branding": {
+    "name": "Active Mirror",
+    "tagline": "Sovereign AI. Your memory. Your hardware. Your rules.",
+    "glyph": "⟡",
+    "colors": {
+      "accent": "#00ff94",
+      "accent_glow": "rgba(0, 255, 148, .15)",
+      "purple": "#a855f7",
+      "cyan": "#00d4ff",
+      "background": "#050505",
+      "text": "#fafafa"
+    },
+    "footer_text": "⟡ Active Mirror — Reflection over Prediction",
+    "copyright": "© 2026 N1 Intelligence (OPC) Pvt Ltd"
+  },
+
+  "external_links": {
+    "github_org": "https://github.com/MirrorDNA-Reflection-Protocol",
+    "zenodo": "https://zenodo.org/communities/mirrordna",
+    "twitter": "https://twitter.com/activemirrorai",
+    "email": "paul@n1intelligence.com"
+  },
+
+  "health_endpoints": [
+    {"url": "https://activemirror.ai", "expected_status": 200},
+    {"url": "https://id.activemirror.ai", "expected_status": 200},
+    {"url": "https://brief.activemirror.ai", "expected_status": 200},
+    {"url": "https://activemirror.ai/mirror", "expected_status": 200}
+  ]
+}

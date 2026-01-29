@@ -1,0 +1,93 @@
+<!--
+⟡ CANONICAL HEADER — Active Mirror Ecosystem
+Version: 2026-01
+Use across all id.activemirror.ai, brief.activemirror.ai, and ecosystem sites
+
+USAGE:
+1. Include this file OR copy the markup directly
+2. Update active nav item by adding class="active" to current section
+3. Customize page-specific meta tags in document head
+-->
+
+<!-- Protocol Header Banner (Ecosystem Identity) -->
+<div class="protocol-header">
+    <span class="protocol-glyphs">⟡</span>
+    <span class="protocol-text">Part of the <strong>Active MirrorOS</strong> ecosystem</span>
+    <span class="protocol-glyphs">⟡</span>
+</div>
+
+<!-- Minimal Nav (Optional - for multi-page properties) -->
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="https://activemirror.ai" class="nav-link">Active Mirror</a>
+    <a href="https://id.activemirror.ai" class="nav-link">Mirror Seed</a>
+    <a href="https://brief.activemirror.ai" class="nav-link">Truth Engine</a>
+    <a href="https://activemirror.ai/research" class="nav-link">Research</a>
+</nav>
+
+<style>
+/* Protocol Header */
+.protocol-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: .6rem 1.25rem;
+    margin: 0 auto 2rem;
+    background: rgba(20, 20, 20, .6);
+    border: 1px solid rgba(255, 215, 0, .15);
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+    width: fit-content;
+    max-width: 100%;
+}
+
+.protocol-glyphs {
+    color: #00ff94;
+    font-size: 1rem;
+    letter-spacing: .2em;
+}
+
+.protocol-text {
+    font-size: .8rem;
+    color: #888;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.protocol-text strong {
+    color: #fafafa;
+    font-weight: 600;
+}
+
+/* Site Nav */
+.site-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.nav-link {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #00ff94;
+}
+
+@media (max-width: 640px) {
+    .protocol-header {
+        gap: 0.75rem;
+        padding: 0.5rem 1rem;
+    }
+    .site-nav {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
+</style>
