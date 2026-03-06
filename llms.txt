@@ -1,0 +1,27 @@
+# Active Mirror — Sovereign AI Infrastructure
+
+## What
+Active Mirror is a sovereign AI operating system running on a single Mac Mini M4.
+141 Claude Code skills, 28 cognitive kernel primitives, 83 automated agents.
+Zero cloud dependencies. Full local inference via Ollama.
+
+## Capabilities
+- Cognitive Kernel: 28 primitives (15 deterministic, 6 creative, 7 blended)
+- Conscience Loop: DREAM -> CALIBRATE -> CONSCIENCE -> INJECT -> ACT -> WITNESS
+- Self-Healing: MirrorPulse with evolving fix playbook
+- Witness Chain: Cryptographic SHA256 hash-chain provenance
+- Temperature-as-Architecture: Mode determines temperature, not the caller
+- 184 automation scripts, 83 LaunchAgents
+
+## Links
+- Main: https://activemirror.ai
+- Blog: https://beacon.activemirror.ai
+- Docs: https://docs.activemirror.ai
+- GitHub: https://github.com/MirrorDNA-Reflection-Protocol
+- Skills: https://github.com/MirrorDNA-Reflection-Protocol/sovereign-ai-skills
+
+## Author
+Paul Desai — paul@activemirror.ai
+
+## License
+MIT
